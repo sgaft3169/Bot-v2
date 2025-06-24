@@ -241,7 +241,7 @@ async def history(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 # Запуск
 if __name__ == '__main__':
-    app = ApplicationBuilder().token('7508387061:AAGkmGI1o6ckpJM5RQg3lOsF7hzw7fsBOy0').build()
+    app = ApplicationBuilder().token('8134172809:AAFydCkI2T32hYxL6y8zCVlTdp_lrL7hY18').build()
 
     conv = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
